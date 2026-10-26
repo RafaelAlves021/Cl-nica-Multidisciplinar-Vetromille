@@ -1,0 +1,1687 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica Vetromille | Clínica Multidisciplinar em Vila Valqueire</title>
+  
+  <!-- SEO & Meta Tags -->
+  <meta name="description" content="Conheça a Clínica Multidisciplinar Vetromille em Vila Valqueire, Rio de Janeiro. Atendimento em fisioterapia, psicologia, psicomotricidade, fonoaudiologia, nutrição e outras especialidades.">
+  <meta name="keywords" content="Clínica Multidisciplinar, Vila Valqueire, Fisioterapia, Psicologia, Fonoaudiologia, Psicomotricidade, Terapia ABA, Nutrição, Saúde Rio de Janeiro">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Redes Sociais -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://clinicavetromille.com.br/">
+  <meta property="og:title" content="Clínica Vetromille | Clínica Multidisciplinar em Vila Valqueire">
+  <meta property="og:description" content="Atendimento humanizado e multidisciplinar para crianças, jovens, adultos e idosos na Praça Saiqui, Vila Valqueire, RJ.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80">
+
+  <!-- Favicon com símbolo representativo -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23286D70'/><path d='M50 24 C40 38, 26 50, 26 64 C26 76, 36 84, 50 84 C64 84, 74 76, 74 64 C74 50, 60 38, 50 24 Z' fill='%2378B9AD'/><circle cx='50' cy='62' r='12' fill='%23E98D98'/></svg>" type="image/svg+xml">
+
+  <!-- Google Fonts: Poppins (Títulos) & Inter (Textos) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Dados Estruturados Schema.org (LocalBusiness) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "name": "Clínica Multidisciplinar Vetromille",
+    "image": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80",
+    "telephone": "+5521973951211",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Praça Saiqui, 40 - Sala 406",
+      "addressLocality": "Vila Valqueire",
+      "addressRegion": "RJ",
+      "postalCode": "21330-320",
+      "addressCountry": "BR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -22.8893,
+      "longitude": -43.3644
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:00",
+        "closes": "20:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "08:00",
+        "closes": "16:00"
+      }
+    ],
+    "priceRange": "$$"
+  }
+  </script>
+
+  <!-- Estilos Customizados & Identidade Visual -->
+  <style>
+    :root {
+      --color-primary: #286D70;       /* Verde-petróleo principal */
+      --color-primary-dark: #1E5356;  /* Verde-petróleo escuro */
+      --color-primary-light: #348B8F; /* Verde-petróleo claro */
+      --color-secondary: #78B9AD;     /* Verde suave */
+      --color-accent: #E98D98;        /* Rosa-coral acolhedor */
+      --color-accent-light: #FBEBED;  /* Fundo rosa sutil */
+      --color-gold: #D9BD83;          /* Dourado suave para detalhes */
+      --color-bg-offwhite: #FAF9F6;   /* Off-white */
+      --color-text: #515A60;          /* Cinza para textos */
+      --color-text-dark: #22292F;     /* Títulos e contrastes */
+      --color-white: #FFFFFF;
+      --font-title: 'Poppins', sans-serif;
+      --font-body: 'Inter', sans-serif;
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      --radius-pill: 50px;
+      --shadow-subtle: 0 4px 20px rgba(40, 109, 112, 0.07);
+      --shadow-hover: 0 10px 30px rgba(40, 109, 112, 0.14);
+      --transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-body);
+      color: var(--color-text);
+      background-color: var(--color-bg-offwhite);
+      line-height: 1.65;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: var(--font-title);
+      color: var(--color-text-dark);
+      font-weight: 600;
+      line-height: 1.3;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    a {
+      text-decoration: none;
+      transition: var(--transition);
+    }
+
+    /* Scroll suave nativo */
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 86px;
+    }
+
+    /* Foco acessível visível */
+    a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+      outline: 3px solid var(--color-secondary) !important;
+      outline-offset: 2px !important;
+    }
+
+    /* Utilitários Visuais */
+    .bg-offwhite { background-color: var(--color-bg-offwhite); }
+    .bg-petrol { background-color: var(--color-primary); }
+    .bg-petrol-dark { background-color: var(--color-primary-dark); }
+    .bg-soft-green { background-color: rgba(120, 185, 173, 0.15); }
+    .text-petrol { color: var(--color-primary); }
+    .text-coral { color: var(--color-accent); }
+    .text-gold { color: var(--color-gold); }
+
+    .badge-pill-vetromille {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 16px;
+      background-color: rgba(120, 185, 173, 0.2);
+      color: var(--color-primary);
+      font-size: 0.85rem;
+      font-weight: 600;
+      border-radius: var(--radius-pill);
+      border: 1px solid rgba(120, 185, 173, 0.4);
+    }
+
+    /* Botões */
+    .btn-vetromille-primary {
+      background-color: var(--color-primary);
+      color: var(--color-white) !important;
+      padding: 12px 28px;
+      font-weight: 500;
+      font-size: 0.95rem;
+      border-radius: var(--radius-pill);
+      border: 2px solid var(--color-primary);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      transition: var(--transition);
+      box-shadow: 0 4px 14px rgba(40, 109, 112, 0.25);
+    }
+
+    .btn-vetromille-primary:hover {
+      background-color: var(--color-primary-dark);
+      border-color: var(--color-primary-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(40, 109, 112, 0.35);
+    }
+
+    .btn-vetromille-secondary {
+      background-color: transparent;
+      color: var(--color-primary) !important;
+      padding: 12px 26px;
+      font-weight: 500;
+      font-size: 0.95rem;
+      border-radius: var(--radius-pill);
+      border: 2px solid var(--color-primary);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      transition: var(--transition);
+    }
+
+    .btn-vetromille-secondary:hover {
+      background-color: var(--color-primary);
+      color: var(--color-white) !important;
+      transform: translateY(-2px);
+    }
+
+    .btn-vetromille-coral {
+      background-color: var(--color-accent);
+      color: var(--color-white) !important;
+      padding: 12px 28px;
+      font-weight: 500;
+      font-size: 0.95rem;
+      border-radius: var(--radius-pill);
+      border: 2px solid var(--color-accent);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      transition: var(--transition);
+      box-shadow: 0 4px 14px rgba(233, 141, 152, 0.3);
+    }
+
+    .btn-vetromille-coral:hover {
+      background-color: #d87884;
+      border-color: #d87884;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(233, 141, 152, 0.4);
+    }
+
+    .btn-vetromille-white {
+      background-color: var(--color-white);
+      color: var(--color-primary) !important;
+      padding: 12px 28px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      border-radius: var(--radius-pill);
+      border: 2px solid var(--color-white);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      transition: var(--transition);
+    }
+
+    .btn-vetromille-white:hover {
+      background-color: transparent;
+      color: var(--color-white) !important;
+      transform: translateY(-2px);
+    }
+
+    /* Navbar */
+    .header-navbar {
+      background-color: rgba(255, 255, 255, 0.97);
+      backdrop-filter: blur(8px);
+      transition: var(--transition);
+      padding: 16px 0;
+      border-bottom: 1px solid rgba(40, 109, 112, 0.08);
+      z-index: 1030;
+    }
+
+    .header-navbar.scrolled {
+      padding: 10px 0;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    }
+
+    .brand-logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+    }
+
+    .brand-icon-wrapper {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--color-white);
+      font-size: 1.3rem;
+      box-shadow: 0 4px 10px rgba(40, 109, 112, 0.2);
+    }
+
+    .brand-text-container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .brand-name {
+      font-family: var(--font-title);
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--color-primary);
+      line-height: 1.1;
+      letter-spacing: -0.5px;
+    }
+
+    .brand-subtitle {
+      font-size: 0.72rem;
+      font-weight: 500;
+      color: var(--color-text);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .navbar-nav .nav-link {
+      font-weight: 500;
+      color: var(--color-text);
+      padding: 8px 16px !important;
+      font-size: 0.95rem;
+      position: relative;
+    }
+
+    .navbar-nav .nav-link:hover,
+    .navbar-nav .nav-link.active {
+      color: var(--color-primary);
+    }
+
+    .navbar-nav .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 2px;
+      left: 16px;
+      width: 0;
+      height: 2px;
+      background-color: var(--color-accent);
+      transition: var(--transition);
+      border-radius: 2px;
+    }
+
+    .navbar-nav .nav-link:hover::after {
+      width: calc(100% - 32px);
+    }
+
+    /* Hero Section */
+    .hero-section {
+      padding: 130px 0 70px 0;
+      background: radial-gradient(circle at top right, rgba(120, 185, 173, 0.18), transparent 60%),
+                  radial-gradient(circle at bottom left, rgba(233, 141, 152, 0.12), transparent 50%),
+                  var(--color-bg-offwhite);
+      position: relative;
+    }
+
+    .hero-image-card {
+      position: relative;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: 0 16px 40px rgba(40, 109, 112, 0.14);
+      background-color: var(--color-white);
+    }
+
+    .hero-image-card img {
+      width: 100%;
+      height: 480px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.6s ease;
+    }
+
+    .hero-image-card:hover img {
+      transform: scale(1.02);
+    }
+
+    .hero-floating-badge {
+      position: absolute;
+      bottom: 24px;
+      left: 24px;
+      right: 24px;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      border-radius: var(--radius-md);
+      padding: 16px 20px;
+      border: 1px solid rgba(40, 109, 112, 0.1);
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      box-shadow: var(--shadow-subtle);
+    }
+
+    .hero-badge-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background-color: var(--color-accent-light);
+      color: var(--color-accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      flex-shrink: 0;
+    }
+
+    .hero-pill-items {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-top: 36px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(40, 109, 112, 0.12);
+    }
+
+    .hero-pill {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.9rem;
+      color: var(--color-text-dark);
+      font-weight: 500;
+    }
+
+    .hero-pill i {
+      color: var(--color-primary);
+      font-size: 1.1rem;
+    }
+
+    /* Cards e Seção Especialidades */
+    .specialty-card {
+      background: var(--color-white);
+      border-radius: var(--radius-md);
+      padding: 30px 24px;
+      border: 1px solid rgba(40, 109, 112, 0.08);
+      box-shadow: var(--shadow-subtle);
+      transition: var(--transition);
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      position: relative;
+    }
+
+    .specialty-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-hover);
+      border-color: rgba(120, 185, 173, 0.5);
+    }
+
+    .specialty-icon-box {
+      width: 58px;
+      height: 58px;
+      border-radius: 14px;
+      background: rgba(120, 185, 173, 0.18);
+      color: var(--color-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6rem;
+      margin-bottom: 20px;
+      transition: var(--transition);
+    }
+
+    .specialty-card:hover .specialty-icon-box {
+      background: var(--color-primary);
+      color: var(--color-white);
+    }
+
+    .specialty-card h3 {
+      font-size: 1.25rem;
+      margin-bottom: 12px;
+    }
+
+    .specialty-card p {
+      font-size: 0.92rem;
+      color: var(--color-text);
+      margin-bottom: 24px;
+      flex-grow: 1;
+    }
+
+    .btn-specialty-link {
+      color: var(--color-primary);
+      font-weight: 600;
+      font-size: 0.9rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: transparent;
+      border: none;
+      padding: 0;
+      text-align: left;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .btn-specialty-link:hover {
+      color: var(--color-accent);
+      gap: 10px;
+    }
+
+    /* Diferenciais Grid */
+    .differential-item {
+      padding: 24px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: var(--radius-md);
+      transition: var(--transition);
+    }
+
+    .differential-item:hover {
+      background: rgba(255, 255, 255, 0.1);
+      transform: translateY(-4px);
+    }
+
+    .differential-icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: var(--color-accent);
+      color: var(--color-white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      margin-bottom: 16px;
+    }
+
+    /* Seção Neurodivergência / Cuidado Infantil */
+    .neuro-section-img-wrapper {
+      position: relative;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-hover);
+    }
+
+    .neuro-section-img-wrapper img {
+      width: 100%;
+      height: 420px;
+      object-fit: cover;
+    }
+
+    .neuro-feature-tag {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+
+    .neuro-feature-tag i {
+      color: var(--color-primary);
+      font-size: 1.4rem;
+      margin-top: 2px;
+    }
+
+    /* Depoimentos */
+    .testimonial-card {
+      background-color: var(--color-white);
+      border-radius: var(--radius-md);
+      padding: 32px 28px;
+      border: 1px solid rgba(40, 109, 112, 0.08);
+      box-shadow: var(--shadow-subtle);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+      position: relative;
+    }
+
+    .quote-icon {
+      font-size: 2.5rem;
+      color: rgba(120, 185, 173, 0.35);
+      line-height: 1;
+      margin-bottom: 12px;
+    }
+
+    .testimonial-stars {
+      color: #F8B84E;
+      font-size: 0.95rem;
+      margin-bottom: 14px;
+    }
+
+    .testimonial-text {
+      font-size: 1rem;
+      font-style: italic;
+      color: var(--color-text-dark);
+      margin-bottom: 20px;
+    }
+
+    .testimonial-author {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border-top: 1px solid rgba(0,0,0,0.06);
+      padding-top: 14px;
+    }
+
+    .author-avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: var(--color-soft-green);
+      color: var(--color-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+
+    /* Card de Contato & Mapa */
+    .contact-info-card {
+      background: var(--color-white);
+      border-radius: var(--radius-md);
+      padding: 30px;
+      border: 1px solid rgba(40, 109, 112, 0.08);
+      box-shadow: var(--shadow-subtle);
+      margin-bottom: 24px;
+    }
+
+    .contact-icon-circle {
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      background: rgba(120, 185, 173, 0.2);
+      color: var(--color-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      flex-shrink: 0;
+    }
+
+    .form-control-custom {
+      border: 1px solid rgba(40, 109, 112, 0.2);
+      border-radius: var(--radius-sm);
+      padding: 12px 16px;
+      font-size: 0.95rem;
+      transition: var(--transition);
+      background-color: var(--color-white);
+    }
+
+    .form-control-custom:focus {
+      border-color: var(--color-primary);
+      box-shadow: 0 0 0 3px rgba(40, 109, 112, 0.15);
+    }
+
+    .map-container {
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      box-shadow: var(--shadow-subtle);
+      border: 1px solid rgba(40, 109, 112, 0.1);
+      height: 380px;
+      position: relative;
+    }
+
+    .map-container iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    /* Floating WhatsApp Button */
+    .whatsapp-floating-btn {
+      position: fixed;
+      bottom: 28px;
+      right: 28px;
+      width: 60px;
+      height: 60px;
+      background-color: #25D366;
+      color: var(--color-white) !important;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+      box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+      z-index: 1040;
+      transition: var(--transition);
+      animation: pulseWhatsApp 2.8s infinite;
+    }
+
+    .whatsapp-floating-btn:hover {
+      background-color: #1EBE5D;
+      transform: scale(1.08);
+      color: var(--color-white);
+    }
+
+    @keyframes pulseWhatsApp {
+      0% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+      }
+      70% {
+        box-shadow: 0 0 0 16px rgba(37, 211, 102, 0);
+      }
+      100% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+      }
+    }
+
+    /* Rodapé */
+    .footer-section {
+      background-color: #1B4547;
+      color: #D3DFDE;
+      padding: 70px 0 25px 0;
+    }
+
+    .footer-heading {
+      color: var(--color-white);
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      position: relative;
+      padding-bottom: 10px;
+    }
+
+    .footer-heading::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 36px;
+      height: 2px;
+      background-color: var(--color-accent);
+    }
+
+    .footer-links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer-links li {
+      margin-bottom: 10px;
+    }
+
+    .footer-links a {
+      color: #C1D4D3;
+      font-size: 0.92rem;
+      transition: var(--transition);
+    }
+
+    .footer-links a:hover {
+      color: var(--color-white);
+      padding-left: 6px;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      margin-top: 50px;
+      padding-top: 24px;
+      font-size: 0.85rem;
+      text-align: center;
+      color: #9CB5B3;
+    }
+
+    /* Animações com Intersection Observer */
+    .reveal {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 0.7s ease, transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+      will-change: opacity, transform;
+    }
+
+    .reveal.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Respeito à preferência de redução de movimento */
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+      .reveal {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+      }
+      .whatsapp-floating-btn {
+        animation: none !important;
+      }
+      .hero-image-card img,
+      .btn-vetromille-primary,
+      .btn-vetromille-secondary,
+      .specialty-card {
+        transition: none !important;
+        transform: none !important;
+      }
+    }
+
+    /* Ajustes Mobile */
+    @media (max-width: 991.98px) {
+      .hero-section {
+        padding-top: 110px;
+      }
+      .hero-image-card img {
+        height: 380px;
+      }
+      .hero-floating-badge {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-top: 16px;
+      }
+    }
+
+    @media (max-width: 575.98px) {
+      .hero-section h1 {
+        font-size: 1.85rem;
+      }
+      .whatsapp-floating-btn {
+        bottom: 18px;
+        right: 18px;
+        width: 54px;
+        height: 54px;
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ==================== 1. CABEÇALHO E NAVEGAÇÃO ==================== -->
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top header-navbar" id="mainNavbar" aria-label="Navegação Principal">
+      <div class="container">
+        <!-- Logotipo Tipográfico Proporcional -->
+        <a class="brand-logo" href="#inicio" aria-label="Página Inicial Clínica Vetromille">
+          <div class="brand-icon-wrapper" aria-hidden="true">
+            <i class="bi bi-heart-pulse-fill"></i>
+          </div>
+          <div class="brand-text-container">
+            <span class="brand-name">VETROMILLE</span>
+            <span class="brand-subtitle">Clínica Multidisciplinar</span>
+          </div>
+        </a>
+
+        <!-- Botão Menu Mobile Hambúrguer -->
+        <button class="navbar-toggler border-0 p-2 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Alternar navegação">
+          <i class="bi bi-list fs-1 text-petrol"></i>
+        </button>
+
+        <!-- Links de Navegação e Botão CTA -->
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav ms-auto mb-3 mb-lg-0 align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#inicio">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#a-clinica">A Clínica</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#especialidades">Especialidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#diferenciais">Diferenciais</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#depoimentos">Depoimentos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+            <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+              <a href="#" class="btn-vetromille-primary js-wa-trigger" data-message="Olá! Gostaria de informações sobre agendamento de atendimento na Clínica Vetromille.">
+                <i class="bi bi-whatsapp"></i> Agendar atendimento
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ==================== 2. HERO SECTION ==================== -->
+    <section class="hero-section" id="inicio">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <!-- Coluna Textos e Ações -->
+          <div class="col-lg-6 order-2 order-lg-1 reveal">
+            <div class="badge-pill-vetromille mb-3">
+              <i class="bi bi-shield-check"></i>
+              <span>Cuidado integral em todas as fases da vida</span>
+            </div>
+            
+            <h1 class="display-5 fw-bold mb-3 text-petrol">
+              Saúde, desenvolvimento e bem-estar em um só lugar.
+            </h1>
+            
+            <p class="lead text-muted mb-4 fs-6">
+              Na Clínica Vetromille, você encontra atendimento multidisciplinar com olhar individualizado, acolhimento e profissionais dedicados ao cuidado de crianças, jovens, adultos e idosos.
+            </p>
+
+            <div class="d-flex flex-wrap gap-3">
+              <a href="#" class="btn-vetromille-primary js-wa-trigger" data-message="Olá! Gostaria de agendar uma avaliação na Clínica Vetromille.">
+                <i class="bi bi-calendar-check"></i> Agende uma avaliação
+              </a>
+              <a href="#especialidades" class="btn-vetromille-secondary">
+                Conheça nossas especialidades <i class="bi bi-arrow-down"></i>
+              </a>
+            </div>
+
+            <!-- Três Pequenos Diferenciais com Ícones -->
+            <div class="hero-pill-items">
+              <div class="hero-pill">
+                <i class="bi bi-diagram-3-fill"></i>
+                <span>Atendimento multidisciplinar</span>
+              </div>
+              <div class="hero-pill">
+                <i class="bi bi-person-heart"></i>
+                <span>Cuidado individualizado</span>
+              </div>
+              <div class="hero-pill">
+                <i class="bi bi-hourglass-split"></i>
+                <span>Atenção às diferentes fases da vida</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coluna Fotografia Profissional -->
+          <div class="col-lg-6 order-1 order-lg-2 reveal">
+            <div class="hero-image-card">
+              <img 
+                src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80" 
+                alt="Profissional de saúde da Clínica Vetromille em acolhimento atencioso e individualizado com paciente"
+                loading="eager"
+              >
+              <div class="hero-floating-badge">
+                <div class="hero-badge-icon" aria-hidden="true">
+                  <i class="bi bi-geo-alt-fill"></i>
+                </div>
+                <div>
+                  <h4 class="h6 mb-0 fw-bold text-petrol">Vila Valqueire, Rio de Janeiro</h4>
+                  <p class="small text-muted mb-0">Praça Saiqui, 40 - Sala 406</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 3. INSTITUCIONAL: A CLÍNICA ==================== -->
+    <section class="py-5 bg-white" id="a-clinica">
+      <div class="container py-lg-4">
+        <div class="row align-items-center g-5">
+          <!-- Fotografia do Ambiente Clínico -->
+          <div class="col-lg-6 reveal">
+            <div class="position-relative">
+              <img 
+                src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80" 
+                alt="Ambiente acolhedor e estruturado da Clínica Multidisciplinar Vetromille" 
+                class="img-fluid rounded-4 shadow-sm w-100 object-fit-cover"
+                style="height: 440px;"
+                loading="lazy"
+              >
+              <div class="p-3 bg-white rounded-3 shadow-sm border position-absolute bottom-0 end-0 m-3 d-none d-sm-block">
+                <div class="d-flex align-items-center gap-3">
+                  <i class="bi bi-check2-circle fs-2 text-petrol"></i>
+                  <div>
+                    <strong class="d-block text-dark">Práticas com Evidências</strong>
+                    <span class="small text-muted">Saúde, acolhimento e escuta</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Textos Institucionais Estritamente Reais -->
+          <div class="col-lg-6 reveal">
+            <div class="badge-pill-vetromille mb-3">
+              <i class="bi bi-building"></i>
+              <span>Conheça a Vetromille</span>
+            </div>
+            
+            <h2 class="h2 fw-bold text-petrol mb-4">
+              Mais do que atendimento, um cuidado integrado.
+            </h2>
+            
+            <p class="text-muted">
+              A Clínica Multidisciplinar Vetromille é um espaço dedicado à saúde integral, à reabilitação e ao desenvolvimento humano. Nossa proposta é reunir diferentes especialidades para oferecer um olhar mais amplo e individualizado às necessidades de cada paciente e de sua família.
+            </p>
+            
+            <p class="text-muted mb-4">
+              Com atendimento voltado da infância à terceira idade, buscamos promover qualidade de vida, autonomia e bem-estar por meio de uma abordagem acolhedora e de práticas baseadas em evidências.
+            </p>
+
+            <div class="row g-3 pt-2">
+              <div class="col-sm-6">
+                <div class="p-3 bg-offwhite rounded-3 border border-light-subtle h-100">
+                  <h3 class="h6 fw-bold text-petrol mb-2"><i class="bi bi-shield-heart text-coral me-1"></i> Acolhimento</h3>
+                  <p class="small text-muted mb-0">Ambiente receptivo e preparado para o conforto dos pacientes e familiares.</p>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="p-3 bg-offwhite rounded-3 border border-light-subtle h-100">
+                  <h3 class="h6 fw-bold text-petrol mb-2"><i class="bi bi-compass text-coral me-1"></i> Integração</h3>
+                  <p class="small text-muted mb-0">Profissionais alinhados para potencializar a autonomia e o bem-estar contínuo.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 4. ESPECIALIDADES ==================== -->
+    <section class="py-5 bg-offwhite" id="especialidades">
+      <div class="container py-lg-4">
+        <div class="text-center max-w-700 mx-auto mb-5 reveal">
+          <div class="badge-pill-vetromille mb-2">
+            <i class="bi bi-grid-fill"></i>
+            <span>Áreas de Atuação</span>
+          </div>
+          <h2 class="h2 fw-bold text-petrol mb-2">Cuidado especializado para cada necessidade.</h2>
+          <p class="text-muted">Conheça as áreas de atendimento da Clínica Vetromille.</p>
+        </div>
+
+        <div class="row g-4">
+          <!-- 1. Fisioterapia -->
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="specialty-card">
+              <div class="specialty-icon-box" aria-hidden="true">
+                <i class="bi bi-person-walking"></i>
+              </div>
+              <h3>Fisioterapia</h3>
+              <p>Atendimento voltado à reabilitação, à funcionalidade e à melhora da mobilidade, conforme as necessidades de cada paciente.</p>
+              <button type="button" class="btn-specialty-link js-wa-trigger" data-message="Olá! Gostaria de consultar informações sobre atendimento em Fisioterapia na Clínica Vetromille.">
+                Consultar atendimento <i class="bi bi-chevron-right" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- 2. Psicologia -->
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="specialty-card">
+              <div class="specialty-icon-box" aria-hidden="true">
+                <i class="bi bi-chat-heart"></i>
+              </div>
+              <h3>Psicologia</h3>
+              <p>Acolhimento psicológico e acompanhamento individualizado, considerando as necessidades emocionais e comportamentais de cada pessoa.</p>
+              <button type="button" class="btn-specialty-link js-wa-trigger" data-message="Olá! Gostaria de consultar informações sobre atendimento em Psicologia na Clínica Vetromille.">
+                Consultar atendimento <i class="bi bi-chevron-right" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- 3. Psicomotricidade -->
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="specialty-card">
+              <div class="specialty-icon-box" aria-hidden="true">
+                <i class="bi bi-activity"></i>
+              </div>
+              <h3>Psicomotricidade</h3>
+              <p>Atividades voltadas ao desenvolvimento das habilidades motoras, cognitivas e relacionais, de acordo com as necessidades individuais.</p>
+              <button type="button" class="btn-specialty-link js-wa-trigger" data-message="Olá! Gostaria de consultar informações sobre atendimento em Psicomotricidade na Clínica Vetromille.">
+                Consultar atendimento <i class="bi bi-chevron-right" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- 4. Terapia ABA -->
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="specialty-card">
+              <div class="specialty-icon-box" aria-hidden="true">
+                <i class="bi bi-puzzle"></i>
+              </div>
+              <h3>Terapia ABA</h3>
+              <p>Acompanhamento baseado nos princípios da Análise do Comportamento Aplicada, conforme o plano individual de atendimento e as necessidades do paciente.</p>
+              <button type="button" class="btn-specialty-link js-wa-trigger" data-message="Olá! Gostaria de consultar informações sobre Terapia ABA na Clínica Vetromille.">
+                Consultar atendimento <i class="bi bi-chevron-right" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- 5. Fonoaudiologia -->
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="specialty-card">
+              <div class="specialty-icon-box" aria-hidden="true">
+                <i class="bi bi-soundwave"></i>
+              </div>
+              <h3>Fonoaudiologia</h3>
+              <p>Acompanhamento relacionado à comunicação, à linguagem, à fala e a outras funções pertinentes à atuação fonoaudiológica.</p>
+              <button type="button" class="btn-specialty-link js-wa-trigger" data-message="Olá! Gostaria de consultar informações sobre atendimento em Fonoaudiologia na Clínica Vetromille.">
+                Consultar atendimento <i class="bi bi-chevron-right" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- 6. Nutrição -->
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="specialty-card">
+              <div class="specialty-icon-box" aria-hidden="true">
+                <i class="bi bi-apple"></i>
+              </div>
+              <h3>Nutrição</h3>
+              <p>Orientação nutricional individualizada para apoiar a saúde, os hábitos alimentares e a qualidade de vida.</p>
+              <button type="button" class="btn-specialty-link js-wa-trigger" data-message="Olá! Gostaria de consultar informações sobre atendimento em Nutrição na Clínica Vetromille.">
+                Consultar atendimento <i class="bi bi-chevron-right" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- 7. Acupuntura e Auriculoterapia -->
+          <div class="col-md-6 col-lg-6 reveal">
+            <div class="specialty-card">
+              <div class="specialty-icon-box" aria-hidden="true">
+                <i class="bi bi-flower1"></i>
+              </div>
+              <h3>Acupuntura e Auriculoterapia</h3>
+              <p>Abordagens terapêuticas complementares, quando indicadas e realizadas por profissionais habilitados.</p>
+              <button type="button" class="btn-specialty-link js-wa-trigger" data-message="Olá! Gostaria de consultar informações sobre Acupuntura e Auriculoterapia na Clínica Vetromille.">
+                Consultar atendimento <i class="bi bi-chevron-right" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- 8. Atendimento Home Care -->
+          <div class="col-md-12 col-lg-6 reveal">
+            <div class="specialty-card border-petrol">
+              <div class="specialty-icon-box" aria-hidden="true">
+                <i class="bi bi-house-heart"></i>
+              </div>
+              <h3>Atendimento Home Care</h3>
+              <p>Possibilidade de atendimento domiciliar, conforme a especialidade, a disponibilidade e as condições de atendimento da clínica.</p>
+              <button type="button" class="btn-specialty-link js-wa-trigger" data-message="Olá! Gostaria de verificar a disponibilidade de Atendimento Home Care da Clínica Vetromille.">
+                Consultar atendimento <i class="bi bi-chevron-right" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 5. DIFERENCIAIS ==================== -->
+    <section class="py-5 bg-petrol text-white" id="diferenciais">
+      <div class="container py-lg-4">
+        <div class="text-center max-w-700 mx-auto mb-5 reveal">
+          <span class="badge bg-white text-petrol rounded-pill px-3 py-2 fw-semibold mb-2">Excelência & Dedicação</span>
+          <h2 class="h2 fw-bold text-white mb-2">Um olhar integrado para o seu bem-estar.</h2>
+          <p class="text-light opacity-75">Conheça o compromisso contínuo da Clínica Vetromille com o cuidado humano.</p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Diferencial 1 -->
+          <div class="col-md-6 col-lg-3 reveal">
+            <div class="differential-item h-100">
+              <div class="differential-icon" aria-hidden="true">
+                <i class="bi bi-people"></i>
+              </div>
+              <h3 class="h5 fw-bold text-white mb-2">Equipe multidisciplinar</h3>
+              <p class="text-light opacity-75 small mb-0">Diferentes áreas de conhecimento reunidas em uma proposta de cuidado integral.</p>
+            </div>
+          </div>
+
+          <!-- Diferencial 2 -->
+          <div class="col-md-6 col-lg-3 reveal">
+            <div class="differential-item h-100">
+              <div class="differential-icon" aria-hidden="true">
+                <i class="bi bi-heart"></i>
+              </div>
+              <h3 class="h5 fw-bold text-white mb-2">Atendimento humanizado</h3>
+              <p class="text-light opacity-75 small mb-0">Escuta, acolhimento e atenção às particularidades de cada paciente.</p>
+            </div>
+          </div>
+
+          <!-- Diferencial 3 -->
+          <div class="col-md-6 col-lg-3 reveal">
+            <div class="differential-item h-100">
+              <div class="differential-icon" aria-hidden="true">
+                <i class="bi bi-people-fill"></i>
+              </div>
+              <h3 class="h5 fw-bold text-white mb-2">Diferentes fases da vida</h3>
+              <p class="text-light opacity-75 small mb-0">Atendimento direcionado a crianças, jovens, adultos e idosos.</p>
+            </div>
+          </div>
+
+          <!-- Diferencial 4 -->
+          <div class="col-md-6 col-lg-3 reveal">
+            <div class="differential-item h-100">
+              <div class="differential-icon" aria-hidden="true">
+                <i class="bi bi-clipboard2-check"></i>
+              </div>
+              <h3 class="h5 fw-bold text-white mb-2">Necessidades individuais</h3>
+              <p class="text-light opacity-75 small mb-0">Abordagens planejadas de acordo com as necessidades e os objetivos de cada paciente.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 6. SEÇÃO ESPECIAL: INFANTIL E NEURODIVERGÊNCIA ==================== -->
+    <section class="py-5 bg-white" id="neurodivergencia">
+      <div class="container py-lg-4">
+        <div class="row align-items-center g-5">
+          <!-- Textos e Destaques -->
+          <div class="col-lg-6 order-2 order-lg-1 reveal">
+            <div class="badge-pill-vetromille mb-3">
+              <i class="bi bi-stars"></i>
+              <span>Cuidado Infantil e Neurodivergência</span>
+            </div>
+            
+            <h2 class="h2 fw-bold text-petrol mb-3">
+              Cada pessoa tem seu jeito de se desenvolver. Nosso cuidado respeita isso.
+            </h2>
+            
+            <p class="text-muted mb-4">
+              Oferecemos uma abordagem individualizada, com atenção às necessidades de desenvolvimento, comunicação, comportamento e participação nas atividades do dia a dia. Trabalhamos com uma perspectiva acolhedora, considerando também a participação e as necessidades das famílias.
+            </p>
+
+            <div class="mb-4">
+              <div class="neuro-feature-tag">
+                <i class="bi bi-check-circle-fill"></i>
+                <div>
+                  <h3 class="h6 fw-bold text-petrol mb-1">Acolhimento empático</h3>
+                  <p class="small text-muted mb-0">Compreensão mútua das singularidades e do tempo próprio de cada fase de desenvolvimento.</p>
+                </div>
+              </div>
+
+              <div class="neuro-feature-tag">
+                <i class="bi bi-check-circle-fill"></i>
+                <div>
+                  <h3 class="h6 fw-bold text-petrol mb-1">Individualidade e respeito</h3>
+                  <p class="small text-muted mb-0">Planos terapêuticos formulados estritamente com base nos objetivos e contextos do paciente.</p>
+                </div>
+              </div>
+
+              <div class="neuro-feature-tag">
+                <i class="bi bi-check-circle-fill"></i>
+                <div>
+                  <h3 class="h6 fw-bold text-petrol mb-1">Acompanhamento com a família</h3>
+                  <p class="small text-muted mb-0">Diálogo transparente com os pais e responsáveis para apoiar o dia a dia.</p>
+                </div>
+              </div>
+            </div>
+
+            <a href="#" class="btn-vetromille-primary js-wa-trigger" data-message="Olá! Gostaria de conversar com a equipe da Clínica Vetromille sobre atendimento no desenvolvimento infantil / neurodivergência.">
+              <i class="bi bi-chat-dots-fill"></i> Conversar com a equipe
+            </a>
+          </div>
+
+          <!-- Imagem Cuidadosa e Humanizada -->
+          <div class="col-lg-6 order-1 order-lg-2 reveal">
+            <div class="neuro-section-img-wrapper">
+              <img 
+                src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=800&q=80" 
+                alt="Acolhimento no desenvolvimento infantil e apoio humanizado entre terapeuta e criança"
+                loading="lazy"
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 7. SEÇÃO DE AVALIAÇÕES E DEPOIMENTOS ==================== -->
+    <section class="py-5 bg-offwhite" id="depoimentos">
+      <div class="container py-lg-4">
+        <div class="text-center max-w-700 mx-auto mb-5 reveal">
+          <div class="badge-pill-vetromille mb-2">
+            <i class="bi bi-google"></i>
+            <span>Reconhecimento Real</span>
+          </div>
+          <h2 class="h2 fw-bold text-petrol mb-2">A confiança de quem conhece nosso trabalho.</h2>
+          <p class="text-muted">Veja relatos reais compartilhados por quem conta com os atendimentos da clínica.</p>
+        </div>
+
+        <div class="row g-4 mb-4">
+          <!-- Avaliação 1 -->
+          <div class="col-md-4 reveal">
+            <div class="testimonial-card">
+              <div>
+                <i class="bi bi-quote quote-icon" aria-hidden="true"></i>
+                <div class="testimonial-stars" aria-label="Avaliação 5 estrelas">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <p class="testimonial-text">
+                  “Psicóloga excelente, meu filho adora as sessões.”
+                </p>
+              </div>
+              <div class="testimonial-author">
+                <div class="author-avatar" aria-hidden="true">P</div>
+                <div>
+                  <h3 class="h6 mb-0 fw-bold text-dark">Paciente / Familiar</h3>
+                  <span class="small text-muted">Avaliação verificada no Google</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Avaliação 2 -->
+          <div class="col-md-4 reveal">
+            <div class="testimonial-card">
+              <div>
+                <i class="bi bi-quote quote-icon" aria-hidden="true"></i>
+                <div class="testimonial-stars" aria-label="Avaliação 5 estrelas">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <p class="testimonial-text">
+                  “Recomendo demais o seu trabalho!”
+                </p>
+              </div>
+              <div class="testimonial-author">
+                <div class="author-avatar" aria-hidden="true">R</div>
+                <div>
+                  <h3 class="h6 mb-0 fw-bold text-dark">Paciente / Familiar</h3>
+                  <span class="small text-muted">Avaliação verificada no Google</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Avaliação 3 -->
+          <div class="col-md-4 reveal">
+            <div class="testimonial-card">
+              <div>
+                <i class="bi bi-quote quote-icon" aria-hidden="true"></i>
+                <div class="testimonial-stars" aria-label="Avaliação 5 estrelas">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <p class="testimonial-text">
+                  “Uma excelente profissional, recomendo.”
+                </p>
+              </div>
+              <div class="testimonial-author">
+                <div class="author-avatar" aria-hidden="true">E</div>
+                <div>
+                  <h3 class="h6 mb-0 fw-bold text-dark">Paciente / Familiar</h3>
+                  <span class="small text-muted">Avaliação verificada no Google</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Botão Google Reviews com contagem confirmada -->
+        <div class="text-center pt-3 reveal">
+          <p class="small text-muted mb-2">Com base em 15 avaliações no perfil oficial do Google</p>
+          <a href="https://maps.google.com/?cid=1269391660751983591" target="_blank" rel="noopener noreferrer" class="btn-vetromille-secondary">
+            <i class="bi bi-google"></i> Ver avaliações no Google <i class="bi bi-box-arrow-up-right ms-1"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 8. SEÇÃO DE CHAMADA PARA AÇÃO (CTA) ==================== -->
+    <section class="py-5 bg-petrol text-white position-relative">
+      <div class="container py-4 text-center reveal">
+        <div class="max-w-700 mx-auto">
+          <span class="badge bg-soft-green text-white rounded-pill px-3 py-2 fw-semibold mb-3 border border-white-50">Atendimento Dedicado</span>
+          <h2 class="display-6 fw-bold text-white mb-3">Vamos encontrar o atendimento ideal para você ou sua família?</h2>
+          <p class="lead text-light opacity-90 mb-4 fs-6">
+            Entre em contato com a nossa equipe para conhecer as especialidades disponíveis e esclarecer suas dúvidas sobre o atendimento.
+          </p>
+          <a href="#" class="btn-vetromille-white js-wa-trigger" data-message="Olá! Gostaria de conversar com a equipe da Clínica Vetromille para saber mais sobre as especialidades e horários disponíveis.">
+            <i class="bi bi-whatsapp text-success"></i> Falar com a Vetromille pelo WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 9. SEÇÃO DE CONTATO E LOCALIZAÇÃO ==================== -->
+    <section class="py-5 bg-white" id="contato">
+      <div class="container py-lg-4">
+        <div class="text-center max-w-700 mx-auto mb-5 reveal">
+          <div class="badge-pill-vetromille mb-2">
+            <i class="bi bi-geo-alt"></i>
+            <span>Localização e Acesso</span>
+          </div>
+          <h2 class="h2 fw-bold text-petrol mb-2">Estamos aqui para receber você.</h2>
+          <p class="text-muted">Venha nos visitar em Vila Valqueire ou inicie o contato pelo WhatsApp.</p>
+        </div>
+
+        <div class="row g-4 align-items-stretch">
+          <!-- Coluna Informações de Contato e Formulário Assistido -->
+          <div class="col-lg-6 reveal">
+            <!-- Informações em Cards -->
+            <div class="contact-info-card">
+              <div class="d-flex align-items-start gap-3 mb-3">
+                <div class="contact-icon-circle" aria-hidden="true">
+                  <i class="bi bi-geo-alt-fill"></i>
+                </div>
+                <div>
+                  <h3 class="h6 fw-bold text-petrol mb-1">Endereço</h3>
+                  <p class="text-muted mb-0">Praça Saiqui, 40 - Sala 406<br>Vila Valqueire, Rio de Janeiro - RJ, CEP 21330-320</p>
+                </div>
+              </div>
+
+              <div class="d-flex align-items-start gap-3 mb-3">
+                <div class="contact-icon-circle" aria-hidden="true">
+                  <i class="bi bi-whatsapp"></i>
+                </div>
+                <div>
+                  <h3 class="h6 fw-bold text-petrol mb-1">Telefone / WhatsApp</h3>
+                  <p class="text-muted mb-0">
+                    <a href="tel:+5521973951211" class="text-decoration-none text-muted">(21) 97395-1211</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="d-flex align-items-start gap-3">
+                <div class="contact-icon-circle" aria-hidden="true">
+                  <i class="bi bi-clock-fill"></i>
+                </div>
+                <div>
+                  <h3 class="h6 fw-bold text-petrol mb-1">Horário informado</h3>
+                  <p class="text-muted mb-0">Atendimento até as 20h</p>
+                </div>
+              </div>
+
+              <div class="d-flex flex-wrap gap-2 mt-4 pt-2 border-top">
+                <a href="https://maps.google.com/?cid=1269391660751983591" target="_blank" rel="noopener noreferrer" class="btn-vetromille-secondary btn-sm">
+                  <i class="bi bi-map"></i> Como chegar
+                </a>
+                <a href="#" class="btn-vetromille-primary btn-sm js-wa-trigger" data-message="Olá! Estou entrando em contato pelo site da Clínica Vetromille.">
+                  <i class="bi bi-whatsapp"></i> Falar pelo WhatsApp
+                </a>
+              </div>
+            </div>
+
+            <!-- Formulário Assistido (Gera mensagem estruturada no WhatsApp sem prometer backend falso) -->
+            <div class="p-4 bg-offwhite rounded-4 border">
+              <h3 class="h6 fw-bold text-petrol mb-1">Envie uma mensagem rápida</h3>
+              <p class="small text-muted mb-3">Preencha abaixo para iniciar uma conversa direta no WhatsApp com a nossa equipe:</p>
+              
+              <form id="contactAssistedForm" novalidate>
+                <div class="mb-3">
+                  <label for="formNome" class="form-label small fw-semibold text-dark">Seu Nome</label>
+                  <input type="text" class="form-control form-control-custom" id="formNome" placeholder="Ex: Maria da Silva" required>
+                  <div class="invalid-feedback small">Por favor, informe seu nome.</div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="formEspecialidade" class="form-label small fw-semibold text-dark">Especialidade de Interesse</label>
+                  <select class="form-select form-control-custom" id="formEspecialidade" required>
+                    <option value="" selected disabled>Selecione uma especialidade...</option>
+                    <option value="Fisioterapia">Fisioterapia</option>
+                    <option value="Psicologia">Psicologia</option>
+                    <option value="Psicomotricidade">Psicomotricidade</option>
+                    <option value="Terapia ABA">Terapia ABA</option>
+                    <option value="Fonoaudiologia">Fonoaudiologia</option>
+                    <option value="Nutrição">Nutrição</option>
+                    <option value="Acupuntura e auriculoterapia">Acupuntura e auriculoterapia</option>
+                    <option value="Atendimento Home Care">Atendimento Home Care</option>
+                    <option value="Outras informações">Outras informações</option>
+                  </select>
+                  <div class="invalid-feedback small">Selecione uma opção de atendimento.</div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="formMensagem" class="form-label small fw-semibold text-dark">Mensagem ou Dúvida (opcional)</label>
+                  <textarea class="form-control form-control-custom" id="formMensagem" rows="2" placeholder="Como podemos ajudar você?"></textarea>
+                </div>
+
+                <button type="submit" class="btn-vetromille-primary w-100">
+                  <i class="bi bi-whatsapp"></i> Continuar no WhatsApp
+                </button>
+                <div class="form-text text-center mt-2 small text-muted">
+                  <i class="bi bi-info-circle"></i> O envio é concluído diretamente no seu aplicativo do WhatsApp.
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <!-- Coluna Mapa Interativo Real do Google Maps -->
+          <div class="col-lg-6 reveal">
+            <div class="map-container h-100 min-h-350">
+              <iframe 
+                title="Mapa de localização da Clínica Multidisciplinar Vetromille em Vila Valqueire"
+                src="https://maps.google.com/maps?q=Pra%C3%A7a%20Saiqui%2C%2040%20-%20Vila%20Valqueire%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2021330-320&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                loading="lazy" 
+                allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== 10. BOTÃO FLUTUANTE DO WHATSAPP ==================== -->
+  <a 
+    href="#" 
+    class="whatsapp-floating-btn js-wa-trigger" 
+    aria-label="Falar agora com a Clínica Vetromille pelo WhatsApp"
+    data-message="Olá! Estou entrando em contato pelo site da Clínica Vetromille e gostaria de mais informações."
+  >
+    <i class="bi bi-whatsapp"></i>
+  </a>
+
+  <!-- ==================== 11. RODAPÉ (FOOTER) ==================== -->
+  <footer class="footer-section">
+    <div class="container">
+      <div class="row g-4 justify-content-between">
+        <!-- Coluna Institucional -->
+        <div class="col-lg-4 col-md-6">
+          <div class="d-flex align-items-center gap-2 mb-3">
+            <div class="brand-icon-wrapper" style="width: 38px; height: 38px; font-size: 1.1rem;" aria-hidden="true">
+              <i class="bi bi-heart-pulse-fill"></i>
+            </div>
+            <div>
+              <span class="text-white fw-bold d-block" style="font-family: var(--font-title); font-size: 1.15rem; letter-spacing: -0.5px;">VETROMILLE</span>
+              <span class="small text-light opacity-75 d-block" style="font-size: 0.7rem; text-transform: uppercase;">Clínica Multidisciplinar</span>
+            </div>
+          </div>
+          <p class="small text-light opacity-75">
+            Espaço dedicado à saúde integral, à reabilitação e ao desenvolvimento humano, reunindo especialidades para oferecer um olhar individualizado da infância à terceira idade.
+          </p>
+        </div>
+
+        <!-- Coluna Links Rápidos -->
+        <div class="col-lg-2 col-md-3 col-6">
+          <h4 class="footer-heading">Navegação</h4>
+          <ul class="footer-links">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#a-clinica">A Clínica</a></li>
+            <li><a href="#especialidades">Especialidades</a></li>
+            <li><a href="#diferenciais">Diferenciais</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna Especialidades -->
+        <div class="col-lg-3 col-md-3 col-6">
+          <h4 class="footer-heading">Especialidades</h4>
+          <ul class="footer-links">
+            <li><a href="#especialidades">Fisioterapia</a></li>
+            <li><a href="#especialidades">Psicologia</a></li>
+            <li><a href="#especialidades">Psicomotricidade</a></li>
+            <li><a href="#especialidades">Terapia ABA</a></li>
+            <li><a href="#especialidades">Fonoaudiologia</a></li>
+            <li><a href="#especialidades">Nutrição</a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna Localização & Atendimento -->
+        <div class="col-lg-3 col-md-6">
+          <h4 class="footer-heading">Localização</h4>
+          <p class="small text-light opacity-75 mb-2">
+            <i class="bi bi-geo-alt-fill text-coral me-1"></i> Praça Saiqui, 40 - Sala 406<br>
+            Vila Valqueire, Rio de Janeiro - RJ<br>
+            CEP: 21330-320
+          </p>
+          <p class="small text-light opacity-75 mb-3">
+            <i class="bi bi-telephone-fill text-coral me-1"></i> (21) 97395-1211<br>
+            <i class="bi bi-clock-fill text-coral me-1"></i> Atendimento até as 20h
+          </p>
+          <a href="#" class="btn-vetromille-coral btn-sm js-wa-trigger" data-message="Olá! Estou entrando em contato pelo rodapé da página da Clínica Vetromille.">
+            <i class="bi bi-whatsapp"></i> Falar no WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- Rodapé Inferior -->
+      <div class="footer-bottom">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+            <p class="mb-0">&copy; <span id="currentYear"></span> Clínica Multidisciplinar Vetromille. Todos os direitos reservados.</p>
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <span class="small opacity-75">Vila Valqueire &bull; Rio de Janeiro - RJ</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5.3 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- ==================== 12. JAVASCRIPT PURO ==================== -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // 1. Constantes Oficiais da Clínica
+      const CLINIC_WHATSAPP_PHONE = '5521973951211';
+      const GOOGLE_REVIEWS_URL = 'https://maps.google.com/?cid=1269391660751983591';
+
+      /**
+       * Função pura e reutilizável para gerar URL oficial de WhatsApp
+       * @param {string} message - Texto não codificado
+       * @returns {string} URL devidamente formatada
+       */
+      function buildWhatsAppUrl(message) {
+        const textEncoded = encodeURIComponent(message || 'Olá! Gostaria de informações sobre atendimento na Clínica Vetromille.');
+        return `https://wa.me/${CLINIC_WHATSAPP_PHONE}?text=${textEncoded}`;
+      }
+
+      // 2. Vinculação universal de botões de WhatsApp
+      const waButtons = document.querySelectorAll('.js-wa-trigger');
+      waButtons.forEach(button => {
+        button.addEventListener('click', (event) => {
+          event.preventDefault();
+          const customMessage = button.getAttribute('data-message') || '';
+          const url = buildWhatsAppUrl(customMessage);
+          window.open(url, '_blank', 'noopener,noreferrer');
+        });
+      });
+
+      // 3. Atualização Dinâmica do Ano no Rodapé
+      const currentYearEl = document.getElementById('currentYear');
+      if (currentYearEl) {
+        currentYearEl.textContent = new Date().getFullYear();
+      }
+
+      // 4. Cabeçalho Dinâmico durante a Rolagem
+      const navbar = document.getElementById('mainNavbar');
+      const handleScrollNavbar = () => {
+        if (window.scrollY > 40) {
+          navbar.classList.add('scrolled');
+        } else {
+          navbar.classList.remove('scrolled');
+        }
+      };
+      window.addEventListener('scroll', handleScrollNavbar, { passive: true });
+      handleScrollNavbar();
+
+      // 5. Fechamento Automático do Menu Mobile após clique em links de âncora
+      const navLinks = document.querySelectorAll('.navbar-nav .nav-link:not(.dropdown-toggle)');
+      const navbarCollapse = document.getElementById('navbarContent');
+      navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          if (navbarCollapse && navbarCollapse.classList.contains('show')) {
+            const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
+            if (bsCollapse) {
+              bsCollapse.hide();
+            }
+          }
+        });
+      });
+
+      // 6. Formulário Assistido de Pré-Agendamento
+      const assistedForm = document.getElementById('contactAssistedForm');
+      if (assistedForm) {
+        assistedForm.addEventListener('submit', (event) => {
+          event.preventDefault();
+          event.stopPropagation();
+
+          if (!assistedForm.checkValidity()) {
+            assistedForm.classList.add('was-validated');
+            return;
+          }
+
+          const nome = document.getElementById('formNome').value.trim();
+          const especialidade = document.getElementById('formEspecialidade').value;
+          const mensagem = document.getElementById('formMensagem').value.trim();
+
+          let msgFinal = `Olá! Meu nome é ${nome} e tenho interesse em atendimento na área de ${especialidade}.`;
+          if (mensagem) {
+            msgFinal += ` Mensagem adicional: ${mensagem}`;
+          }
+
+          const targetUrl = buildWhatsAppUrl(msgFinal);
+          window.open(targetUrl, '_blank', 'noopener,noreferrer');
+        });
+      }
+
+      // 7. Intersection Observer para Animações Suaves de Entrada
+      const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (!prefersReducedMotion && 'IntersectionObserver' in window) {
+        const revealElements = document.querySelectorAll('.reveal');
+        const observerOptions = {
+          threshold: 0.12,
+          rootMargin: '0px 0px -40px 0px'
+        };
+
+        const revealObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('active');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, observerOptions);
+
+        revealElements.forEach(el => revealObserver.observe(el));
+      } else {
+        // Se preferência por redução de movimento estiver ativa, exibe de imediato
+        document.querySelectorAll('.reveal').forEach(el => el.classList.add('active'));
+      }
+    });
+  </script>
+</body>
+</html>
